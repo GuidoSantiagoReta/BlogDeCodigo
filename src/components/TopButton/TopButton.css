@@ -1,0 +1,42 @@
+.top-button-container {
+    position: fixed;
+    bottom:  4rem;
+    right:  4rem;
+    width:  40px;
+    height:  40px;
+    z-index:  1;
+    background-color: rgb(77,  1,  26); /* Contenedor cuadrado blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.top-button {
+    width:  50px;
+    height:  50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.icon {
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffffff9b;
+}
+
+/* Media query para dispositivos pequeños */
+@media (max-width:  768px) {
+    .top-button-container {
+        width:  40px;
+        height:  40px;
+        bottom:  2rem;
+        right:  1rem;
+    }
+
+    .top-button {
+        width:  40px;
+        height:  40px;
+    }
+}
