@@ -9,7 +9,7 @@ const Article = () => {
     <div className="contenedor">
           <div className="articulos-blog">
             <div className="articulo">
-                <p className="fecha-articulo">Marzo de 2018</p>
+                <p className="fecha-articulo">2018 - Actualidad</p>
                  <h3 className="titulo-articulo"> Pasión por la tecnología y Primeros pasos por la programación</h3>
                   <img src={developer1} className="developer-image" alt="developer"/>
                   <div className="texto-articulo">
@@ -19,7 +19,7 @@ const Article = () => {
                       </p>
                        <p>Día tras día voy adquiriendo conocimientos de manera autodidacta, investigando sobre leguajes a través de tutoriales y aplicaciones como <b>sololearn, codecademy, w3school</b> y páginas de cursos online como <b>crehana</b>. </p>
                        <p>Actualmente me encuentro realizando la tecnicatura en análisis de sistemas en <b>(IRSO)</b>, programando y realizando ejercicios en lenguaje <b>C</b>.
-                         Además adquirí pasión por el desarrollo y diseño web. <b> Descripción en el siguiente artículo</b>.
+                         Además adquirí pasión por el desarrollo y diseño web. 
                       </p>
                   </div>
             </div>
