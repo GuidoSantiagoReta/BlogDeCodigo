@@ -56,7 +56,18 @@
       padding:  40px  0; 
     }
   
-    .texto-articulo {
-      padding:  0  15px; 
+    .fecha-articulo{
+      font-size: 20px;
     }
+    .titulo-articulo{
+      
+      font-size: 19px;
+    
+  
+  }
+    .texto-articulo p {
+      padding:  0  15px; 
+      font-size: 15px;
+    }
+    
   }

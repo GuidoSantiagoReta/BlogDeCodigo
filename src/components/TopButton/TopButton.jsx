@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaChevronUp } from "react-icons/fa";
+import { FaArrowUp } from "react-icons/fa";
 import './TopButton.css';  
 
 export function TopButton() {
@@ -34,7 +35,7 @@ export function TopButton() {
             <div className="top-button-container">
                 <div className="top-button" onClick={scrollTop}>
                     <div className="button-content">
-                        <FaChevronUp className="icon" size={25}/>
+                        <FaArrowUp className="icon" size={25}/>
                     </div>
                 </div>
             </div>

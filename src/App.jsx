@@ -6,6 +6,7 @@ import DesarrolloWeb from './components/DesarrolloWeb/DesarrolloWeb';
 import { TopButton } from './components/TopButton/TopButton';
 import DevSecOPs from './components/DevSecOps/DevSecOPs';
 import Footer from './components/Footer/Footer';
+import Scripting from './components/Scripting/Scripting';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
        <Route path='/' element={<Bio/>}  />
        <Route path="/desarrollo" element={<DesarrolloWeb />} />
        <Route path="/devsecops" element={<DevSecOPs />} />
+       <Route path="/scripting" element={<Scripting />} />
       </Routes>
       <TopButton/>
     </Router>
