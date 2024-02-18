@@ -1,0 +1,37 @@
+[
+    {
+      "id": "bio",
+      "fecha": "2018 - Actualidad",
+      "titulo": "Pasión por la tecnología y Primeros pasos por la programación",
+      "imagen": "developer.png",
+      "texto": [
+        "A principios del  2018 empecé haciendo cursos de reparación de pc y notebooks.",
+        "En el año  2018 curse la certificación en el programa codo a codo, aprendiendo las bases de programación: desde algoritmos, programación estructurada, programación orientada a objetos Y desarrollo de software en leguaje JAVA (con neatbeans IDE) y diseño de bases de datos con (MYSQL workbench).",
+        "Día tras día voy adquiriendo conocimientos de manera autodidacta, investigando sobre leguajes a través de tutoriales y aplicaciones como sololearn, codecademy, w3school y páginas de cursos online como crehana.",
+        "Actualmente me encuentro realizando la tecnicatura en análisis de sistemas en (IRSO), programando y realizando ejercicios en lenguaje C. Además adquirí pasión por el desarrollo y diseño web."
+      ]
+    },
+    {    
+        "id": "desarrollo-web",
+        "fecha": "2021 - Actualidad",
+        "titulo": "Conquistando el desarrollo web",
+        "imagen": "editandoconvim.png",
+        "texto": [
+          "A principios del  2018 empecé haciendo cursos de reparación de pc y notebooks."
+          
+        ]
+      },
+      {    
+        "id": "devsecops",
+        "fecha": "2024 - Actualidad",
+        "titulo": "Academia DevSecOps ",
+        "imagen": "devsecops.png",
+        "texto": [
+          "Estoy contento de compartir que he comenzado la Academia DevSecOps impartida por Softtek y UMSA Oficial. Durante este tiempo, hemos explorado los fundamentos de DevOps e Infraestructura, introducción a DevSecOps y a CloudOps, trabajando con Sistemas de Control de Versiones, aprendiendo sobre Automatización,",
+           "estrategias de ramificación, GitFlow, ciclo de vida de aplicaciones, herramientas de CI/CD y pipelines, entre otras cosas. Este aprendizaje ha sido increíblemente enriquecedor y estoy lleno de energía para continuar profundizando en estos temas. Quiero expresar mi agradecimiento a Softtek, por brindar esta valiosa capacitación.",
+           "Estoy ansioso por seguir creciendo y aplicando lo aprendido en mis futuros proyectos.", 
+           "¡Espero compartir con ustedes más avances y logros en el mundo de DevSecOps!"
+          
+        ]
+      }
+  ]

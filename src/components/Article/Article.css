@@ -39,6 +39,7 @@
     height: auto; 
     display: block; 
     margin:  0 auto; 
+    padding: 0 20px 0 20px;
   }
  
   .texto-articulo {

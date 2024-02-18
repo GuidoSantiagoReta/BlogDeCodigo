@@ -1,15 +1,14 @@
 import React from 'react';
-import developer from '../../assets/developer.png';
-import './Bio.css';
 import Article from '../Article/Article';
+import articlesData from '../Article/articlesData.json';
+
 
 
 const Bio = () => {
+  const bioArticle = articlesData.find(article => article.id === 'bio');
   return (
-    <>
-    <Article/>
-    </>
-  )
-}
+    <Article article={bioArticle} />
+  );
+};
 
-export default Bio
+export default Bio;

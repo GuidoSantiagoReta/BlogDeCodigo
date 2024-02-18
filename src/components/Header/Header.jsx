@@ -26,7 +26,7 @@ const Header = () => {
         <div className="categories" id="categories">
           <Link to="/" className={isActive("/")}>Bio</Link>
           <Link to="/Desarrollo" className={isActive("/Desarrollo")}>Desarrollo Web</Link>
-          <Link to="/Linux" className={isActive("/Linux")}>Linux</Link>
+          <Link to="/Scripting" className={isActive("/Scripting")}>Scripting</Link>
           <Link to="/DevSecOps" className={isActive("/DevSecOps")}>DevSecOps</Link>
           <Link to="/SeguridadInformatica" className={isActive("/SeguridadInformatica")}>Seguridad Informática</Link>
           <Link to="/Testing" className={isActive("/Testing")}>Testing</Link>

@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Bio from './components/Bio/Bio';
 import DesarrolloWeb from './components/DesarrolloWeb/DesarrolloWeb';
 import { TopButton } from './components/TopButton/TopButton';
+import DevSecOPs from './components/DevSecOps/DevSecOPs';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Routes>
        <Route path='/' element={<Bio/>}  />
        <Route path="/desarrollo" element={<DesarrolloWeb />} />
+       <Route path="/devsecops" element={<DevSecOPs />} />
       </Routes>
       <TopButton/>
     </Router>
