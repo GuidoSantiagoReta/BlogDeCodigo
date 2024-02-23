@@ -14,7 +14,7 @@ const Header = () => {
 
   useEffect(() => {
     const checkScroll = () => {
-      setIsScrolled(window.scrollY >  0); // You can adjust the value  100 to change when the navbar becomes fixed
+      setIsScrolled(window.scrollY >  0); 
     };
   
     window.addEventListener("scroll", checkScroll);
@@ -24,7 +24,7 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-    document.body.style.paddingTop = isScrolled ? "5px" : "0"; // Adjust based on your navbar's height
+    document.body.style.paddingTop = isScrolled ? "5px" : "0"; 
   }, [isScrolled]);
   
   return (
