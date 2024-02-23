@@ -33,7 +33,6 @@ const Header = () => {
         <div className="container-nav">
           <div className="brand" onClick={() => navigate('/')}>BlogDeCódigo</div>
         </div>
-        <Theme/>
       </nav>
       <div className="container-section">
         <div className="header-section">
