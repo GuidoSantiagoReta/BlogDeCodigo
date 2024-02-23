@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import Theme from "../Theme/Theme";
 import "./Header.css";
 
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -10,13 +12,28 @@ const Header = () => {
     return location.pathname === path ? 'active' : '';
   };
 
+  useEffect(() => {
+    const checkScroll = () => {
+      setIsScrolled(window.scrollY >  0); // You can adjust the value  100 to change when the navbar becomes fixed
+    };
+  
+    window.addEventListener("scroll", checkScroll);
+    return () => {
+      window.removeEventListener("scroll", checkScroll);
+    };
+  }, []);
 
+  useEffect(() => {
+    document.body.style.paddingTop = isScrolled ? "5px" : "0"; // Adjust based on your navbar's height
+  }, [isScrolled]);
+  
   return (
     <>
-      <nav>
+      <nav className={isScrolled ? "nav-scrolled" : "nav-default"}>
         <div className="container-nav">
           <div className="brand" onClick={() => navigate('/')}>BlogDeCódigo</div>
         </div>
+        <Theme/>
       </nav>
       <div className="container-section">
         <div className="header-section">

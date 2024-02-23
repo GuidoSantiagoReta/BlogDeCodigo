@@ -31,14 +31,12 @@ export function TopButton() {
     }, []);
 
     return (
-        showButton && (
-            <div className="top-button-container">
-                <div className="top-button" onClick={scrollTop}>
-                    <div className="button-content">
-                        <FaArrowUp className="icon" size={25}/>
-                    </div>
-                </div>
+        <div className={`top-button-container ${showButton ? 'show' : ''}`}>
+        <div className="top-button" onClick={scrollTop}>
+            <div className="button-content">
+                <FaArrowUp className="icon" size={25}/>
             </div>
-        )
+        </div>
+    </div>
     );
 }
