@@ -1,19 +1,15 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { FiSun, FiMoon } from 'react-icons/fi';
+import { ThemeContext } from '../../context/ThemeContextProvider';
 import './Theme.css'; 
 
 function Theme() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  const handleModeChange = () => {
-    setIsDarkMode(!isDarkMode);
-    // lógica 
-  };
+  const { isDarkMode, toggleTheme } = useContext(ThemeContext);
 
   return (
     <button
       className={`theme-button ${isDarkMode ? 'dark' : ''}`}
-      onClick={handleModeChange}
+      onClick={toggleTheme} // Corregido aquí
     >
       {isDarkMode ? <FiSun size={30} /> : <FiMoon size={30} />}
     </button>

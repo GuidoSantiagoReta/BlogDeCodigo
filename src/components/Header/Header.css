@@ -33,7 +33,7 @@ nav {
 
 .nav-default {
     box-shadow: none;
-    border-bottom:  1.5px solid #CBCBCB;
+    border-bottom:  1.5px solid #c7c6c69b;
 }
 .brand {
 
@@ -53,6 +53,7 @@ nav {
     color: #1F2937;
     font-family: "Open Sans", sans-serif;
 }
+
 
 p {
     text-align: center;
@@ -85,3 +86,56 @@ p {
 }
 
 
+.nav-dark  {
+    background: #1f2937c4; 
+    color: #fff; 
+    backdrop-filter: blur(10px);
+}
+.nav-dark .brand{
+    color: #fff; 
+}
+
+.dark-mode-header{
+    background: #1F2937; 
+   
+}
+
+.dark-mode-header h1{
+    color: #fff;
+}
+
+.dark-mode-header  .categories a.active{
+    color: #fff;
+}
+
+
+/*Mediaqueries*/
+
+@media (max-width: 768px) {
+    .brand {
+
+        font-size: 30px;
+    }
+   
+    h1{
+        font-size: 25px; 
+    }
+    p {
+         
+        font-size: 20px;   
+    }
+    
+     .categories a {
+     color: #9b9b9b9b;
+     margin: 20px 20px;
+     font-size: 15px;
+     font-weight: 700;
+     text-decoration: none;
+     font-family: "Open Sans", sans-serif;
+    
+    }
+    
+   
+    
+    
+  }

@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext} from 'react';
 import { FaChevronUp } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa";
+import Theme from "../Theme/Theme";
+import { ThemeContext } from "../../context/ThemeContextProvider";
 import './TopButton.css';  
 
 export function TopButton() {
+    const { isDarkMode } = useContext(ThemeContext);
     const [showButton, setShowButton] = useState(false);
 
     const scrollTop = () => {
@@ -31,7 +34,7 @@ export function TopButton() {
     }, []);
 
     return (
-        <div className={`top-button-container ${showButton ? 'show' : ''}`}>
+        <div className={`top-button-container ${showButton ? 'show' : ''} ${isDarkMode ? "top-button-dark" : ""}`}>
         <div className="top-button" onClick={scrollTop}>
             <div className="button-content">
                 <FaArrowUp className="icon" size={25}/>

@@ -5,10 +5,12 @@
       "titulo": "Pasión por la tecnología y Primeros pasos por la programación",
       "imagen": "developer.png",
       "texto": [
-        "A principios del  2018 empecé haciendo cursos de reparación de pc y notebooks.",
-        "En el año  2018 curse la certificación en el programa codo a codo, aprendiendo las bases de programación: desde algoritmos, programación estructurada, programación orientada a objetos Y desarrollo de software en leguaje JAVA (con neatbeans IDE) y diseño de bases de datos con (MYSQL workbench).",
-        "Día tras día voy adquiriendo conocimientos de manera autodidacta, investigando sobre leguajes a través de tutoriales y aplicaciones como sololearn, codecademy, w3school y páginas de cursos online como crehana.",
-        "Actualmente me encuentro realizando la tecnicatura en análisis de sistemas en (IRSO), programando y realizando ejercicios en lenguaje C. Además adquirí pasión por el desarrollo y diseño web."
+        "En el año 2018 empecé a aprender tecnologías como HTML5, CSS3, Bootstrap, JavaScript, React, Node.js, Tailwind, Next.js, MySQL, SQL Server, C# y desde entonces no he dejado de aprender y  de realizar proyectos.",
+        "Certificaciones y Formación (2020 - 2021): Realice la certificación de Comunidad IT de Programación web (Fullstack con React.js, Node.js y MYSQL).",
+        "Comencé la tecnicatura en Análisis de sistemas, Aprendí temas que abarcan desde el ciclo de vida de desarrollo de software, arquitectura de redes, diseño de bases de datos, garantía de calidad de software, gestión de proyectos, estructuras de datos, programación funcional y estructurada, administración de servidores y bases de datos.",
+        "Proyectos y Certificaciones Continuas (2022 - Actualidad): Durante la tecnicatura, continue  aprendiendo sobre programación y desarrollo web, realizando distintos proyectos y certificaciones.",
+        "Actualmente, las tecnologías con las que me siento cómodo trabajando incluyen: Figma, HTML, CSS, JavaScript, Git, GitHub, GitLab, React Bootstrap, Tailwind, Next.js, Redux, Node.js, MYSQL, MongoDB, entre otras.",
+        "A partir del 2024 me encuentro realizando la licenciatura en tecnologías digitales en la Universidad de la Ciudad de Buenos Aires, aprendiendo sobre testing, seguridad informática y Devops/DevSecOps."
       ]
     },
     {    
@@ -17,7 +19,20 @@
         "titulo": "Pasión por el desarrollo web",
         "imagen": "portfolio.png",
         "texto": [
-          "En el año 2019 comencé a aprender tecnologías como HTML5, CSS3, Bootstrap, JavaScript, React, Node.js, Tailwind, Next.js, MySQL, SQL Server, C# y desde entonces no he dejado de aprender y hacer proyectos."
+          "Actualmente, las tecnologías con las que me siento cómodo trabajando incluyen: Figma, HTML, CSS, JavaScript, Git, GitHub, GitLab, React Bootstrap, Tailwind, Next.js, Redux, Node.js, MYSQL, MongoDB, entre otras.",
+          "A continuación comparto los enlaces de mi portfolio de proyectos y usuario de github."
+          
+        ]
+      },
+      {    
+        "id": "scripting",
+        "fecha": "2024 - Actualidad",
+        "titulo": "Bash scripting en KaliLinux",
+        "imagen": "bashscripting.png",
+        "texto": [
+          "Me encuentro Realizando scripts en tanto en bash como powershell",
+          "Practicando Scripting con variables de entorno, Scripts Dinámicos, condicionales, arreglos, estruturas repetitivas, manejo de archivos y funciones."
+          
           
         ]
       },
@@ -34,17 +49,18 @@
           
         ]
       }, 
-
       {    
-        "id": "scripting",
+        "id": "security",
         "fecha": "2024 - Actualidad",
-        "titulo": "Bash scripting en KaliLinux",
-        "imagen": "bashscripting.png",
+        "titulo": "Academia DevSecOps ",
+        "imagen": "google.png",
         "texto": [
-          "Me encuentro Realizando scripts en tanto en bash como powershell",
-          "Practicando Scripting con variables de entorno, Scripts Dinámicos, condicionales, arreglos, estruturas repetitivas, manejo de archivos y funciones."
-          
+          "Estoy contento de compartir que he comenzado la Academia DevSecOps impartida por Softtek y UMSA Oficial. Durante este tiempo, hemos explorado los fundamentos de DevOps e Infraestructura, introducción a DevSecOps y a CloudOps, trabajando con Sistemas de Control de Versiones, aprendiendo sobre Automatización,",
+          "estrategias de ramificación, GitFlow, ciclo de vida de aplicaciones, herramientas de CI/CD y pipelines, entre otras cosas. Este aprendizaje ha sido increíblemente enriquecedor y estoy lleno de energía para continuar profundizando en estos temas. Quiero expresar mi agradecimiento a Softtek, por brindar esta valiosa capacitación.",
+          "Estoy ansioso por seguir creciendo y aplicando lo aprendido en mis futuros proyectos.", 
+          "¡Espero compartir con ustedes más avances y logros en el mundo de DevSecOps!"
           
         ]
-      }
+      } 
+     
   ]

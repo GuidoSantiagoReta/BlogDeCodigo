@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext} from "react";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Theme from "../Theme/Theme";
+import { ThemeContext } from "../../context/ThemeContextProvider";
 import "./Header.css";
 
 const Header = () => {
+  const { isDarkMode } = useContext(ThemeContext);
   const [isScrolled, setIsScrolled] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
@@ -29,13 +31,14 @@ const Header = () => {
   
   return (
     <>
-      <nav className={isScrolled ? "nav-scrolled" : "nav-default"}>
+      <nav className={`${isScrolled ? "nav-scrolled" : "nav-default"} ${isDarkMode ? "nav-dark" : ""}`}> 
         <div className="container-nav">
           <div className="brand" onClick={() => navigate('/')}>BlogDeCódigo</div>
         </div>
+        <Theme/>
       </nav>
-      <div className="container-section">
-        <div className="header-section">
+      <div className={`container-section ${isDarkMode ? "dark-mode-header" : ""}`}>
+        <div className={`header-section ${isDarkMode ? "dark-mode-header" : ""}`}>
           <h1>Guido Santiago Reta</h1>
           <p>Analista de sistemas | Desarrollador Web | Devops | DevSecOps</p>
         </div>
@@ -44,7 +47,7 @@ const Header = () => {
           <Link to="/Desarrollo" className={isActive("/Desarrollo")}>Desarrollo Web</Link>
           <Link to="/Scripting" className={isActive("/Scripting")}>Scripting</Link>
           <Link to="/DevSecOps" className={isActive("/DevSecOps")}>DevSecOps</Link>
-          <Link to="/SeguridadInformatica" className={isActive("/SeguridadInformatica")}>Ciberseguridad</Link>
+          <Link to="/Security" className={isActive("/Security")}>Ciberseguridad</Link>
           <Link to="/Testing" className={isActive("/Testing")}>Testing</Link>
           <Link to="/BasesDeDatos" className={isActive("/BasesDeDatos")}>Bases de datos</Link>
           <Link to="/Hardware" className={isActive("/Hardware")}>Hardware</Link>
