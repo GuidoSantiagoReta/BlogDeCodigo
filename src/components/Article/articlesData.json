@@ -61,6 +61,44 @@
           "¡Espero compartir con ustedes más avances y logros en el mundo de DevSecOps!"
           
         ]
-      } 
-     
+      },
+      {    
+        "id": "testing",
+        "fecha": "2024 - Actualidad",
+        "titulo": "Academia DevSecOps ",
+        "imagen": "testing.png",
+        "texto": [
+          "Estoy contento de compartir que he comenzado la Academia DevSecOps impartida por Softtek y UMSA Oficial. Durante este tiempo, hemos explorado los fundamentos de DevOps e Infraestructura, introducción a DevSecOps y a CloudOps, trabajando con Sistemas de Control de Versiones, aprendiendo sobre Automatización,",
+          "estrategias de ramificación, GitFlow, ciclo de vida de aplicaciones, herramientas de CI/CD y pipelines, entre otras cosas. Este aprendizaje ha sido increíblemente enriquecedor y estoy lleno de energía para continuar profundizando en estos temas. Quiero expresar mi agradecimiento a Softtek, por brindar esta valiosa capacitación.",
+          "Estoy ansioso por seguir creciendo y aplicando lo aprendido en mis futuros proyectos.", 
+          "¡Espero compartir con ustedes más avances y logros en el mundo de DevSecOps!"
+          
+        ]
+      },
+      {    
+        "id": "database",
+        "fecha": "2024 - Actualidad",
+        "titulo": "Academia DevSecOps",
+        "imagen": "db.png",
+        "texto": [
+          "Estoy contento de compartir que he comenzado la Academia DevSecOps impartida por Softtek y UMSA Oficial. Durante este tiempo, hemos explorado los fundamentos de DevOps e Infraestructura, introducción a DevSecOps y a CloudOps, trabajando con Sistemas de Control de Versiones, aprendiendo sobre Automatización,",
+          "estrategias de ramificación, GitFlow, ciclo de vida de aplicaciones, herramientas de CI/CD y pipelines, entre otras cosas. Este aprendizaje ha sido increíblemente enriquecedor y estoy lleno de energía para continuar profundizando en estos temas. Quiero expresar mi agradecimiento a Softtek, por brindar esta valiosa capacitación.",
+          "Estoy ansioso por seguir creciendo y aplicando lo aprendido en mis futuros proyectos.", 
+          "¡Espero compartir con ustedes más avances y logros en el mundo de DevSecOps!"
+          
+        ]
+      },
+      {    
+        "id": "hardware",
+        "fecha": "2017 - Actualidad",
+        "titulo": "Reparación de hardware e Instalación de sistemas operativos",
+        "imagen": "hardware.jpg",
+        "texto": [
+          "Estoy contento de compartir que he comenzado la Academia DevSecOps impartida por Softtek y UMSA Oficial. Durante este tiempo, hemos explorado los fundamentos de DevOps e Infraestructura, introducción a DevSecOps y a CloudOps, trabajando con Sistemas de Control de Versiones, aprendiendo sobre Automatización,",
+          "estrategias de ramificación, GitFlow, ciclo de vida de aplicaciones, herramientas de CI/CD y pipelines, entre otras cosas. Este aprendizaje ha sido increíblemente enriquecedor y estoy lleno de energía para continuar profundizando en estos temas. Quiero expresar mi agradecimiento a Softtek, por brindar esta valiosa capacitación.",
+          "Estoy ansioso por seguir creciendo y aplicando lo aprendido en mis futuros proyectos.", 
+          "¡Espero compartir con ustedes más avances y logros en el mundo de DevSecOps!"
+          
+        ]
+      }
   ]

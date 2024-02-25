@@ -49,8 +49,8 @@ const Header = () => {
           <Link to="/DevSecOps" className={isActive("/DevSecOps")}>DevSecOps</Link>
           <Link to="/Security" className={isActive("/Security")}>Ciberseguridad</Link>
           <Link to="/Testing" className={isActive("/Testing")}>Testing</Link>
-          <Link to="/BasesDeDatos" className={isActive("/BasesDeDatos")}>Bases de datos</Link>
-          <Link to="/Hardware" className={isActive("/Hardware")}>Hardware</Link>
+          <Link to="/database" className={isActive("/database")}>Bases de datos</Link>
+          <Link to="/hardware" className={isActive("/hardware")}>Hardware</Link>
         </div>
       </div>
     </>
