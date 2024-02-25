@@ -54,6 +54,7 @@
 
 .dark-mode-section .articulo{
   background-color:#1F2937;
+  border:  1px solid #c7c6c69b;
  }
  .dark-mode-section .titulo-articulo{
   color: #E2E9EF;

@@ -5,9 +5,9 @@
       "titulo": "Pasión por la tecnología y Primeros pasos por la programación",
       "imagen": "developer.png",
       "texto": [
-        "En el año 2018 empecé a aprender tecnologías como HTML5, CSS3, Bootstrap, JavaScript, React, Node.js, Tailwind, Next.js, MySQL, SQL Server, C# y desde entonces no he dejado de aprender y  de realizar proyectos.",
+        "En el año 2018 Comencé a aprender tecnologías como HTML5, CSS3, Bootstrap, JavaScript, React, Node.js, Tailwind, Next.js, MySQL, SQL Server, C# y desde entonces no he dejado de aprender y  de realizar proyectos.",
         "Certificaciones y Formación (2020 - 2021): Realice la certificación de Comunidad IT de Programación web (Fullstack con React.js, Node.js y MYSQL).",
-        "Comencé la tecnicatura en Análisis de sistemas, Aprendí temas que abarcan desde el ciclo de vida de desarrollo de software, arquitectura de redes, diseño de bases de datos, garantía de calidad de software, gestión de proyectos, estructuras de datos, programación funcional y estructurada, administración de servidores y bases de datos.",
+        "Me inscribí a la tecnicatura en Análisis de sistemas, Aprendí temas que abarcan desde el ciclo de vida de desarrollo de software, arquitectura de redes, diseño de bases de datos, garantía de calidad de software, gestión de proyectos, estructuras de datos, programación funcional y estructurada, administración de servidores y bases de datos.",
         "Proyectos y Certificaciones Continuas (2022 - Actualidad): Durante la tecnicatura, continue  aprendiendo sobre programación y desarrollo web, realizando distintos proyectos y certificaciones.",
         "Actualmente, las tecnologías con las que me siento cómodo trabajando incluyen: Figma, HTML, CSS, JavaScript, Git, GitHub, GitLab, React Bootstrap, Tailwind, Next.js, Redux, Node.js, MYSQL, MongoDB, entre otras.",
         "A partir del 2024 me encuentro realizando la licenciatura en tecnologías digitales en la Universidad de la Ciudad de Buenos Aires, aprendiendo sobre testing, seguridad informática y Devops/DevSecOps."
@@ -52,13 +52,12 @@
       {    
         "id": "security",
         "fecha": "2024 - Actualidad",
-        "titulo": "Academia DevSecOps ",
+        "titulo": "Seguridad Informática",
         "imagen": "google.png",
         "texto": [
-          "Estoy contento de compartir que he comenzado la Academia DevSecOps impartida por Softtek y UMSA Oficial. Durante este tiempo, hemos explorado los fundamentos de DevOps e Infraestructura, introducción a DevSecOps y a CloudOps, trabajando con Sistemas de Control de Versiones, aprendiendo sobre Automatización,",
-          "estrategias de ramificación, GitFlow, ciclo de vida de aplicaciones, herramientas de CI/CD y pipelines, entre otras cosas. Este aprendizaje ha sido increíblemente enriquecedor y estoy lleno de energía para continuar profundizando en estos temas. Quiero expresar mi agradecimiento a Softtek, por brindar esta valiosa capacitación.",
-          "Estoy ansioso por seguir creciendo y aplicando lo aprendido en mis futuros proyectos.", 
-          "¡Espero compartir con ustedes más avances y logros en el mundo de DevSecOps!"
+          "Cuento con certificaciones de Google sobre seguridad informática donde abordé temas como:",
+          "Gestión de amenazas y vulnerabilidades · Instituto Nacional de Estándares y Tecnología de EE. UU. (NIST)  ·  Marco de gestión de riesgos (RMF) · Auditorías de seguridad · herramientas SIEM  ·  Operaciones y protocolos de red. Modelo de Protocolo de Control de Transmisión/Protocolo de Internet (TCP/IP) ·  Seguridad de la red . vulnerabilidades de una red  ·  protegerla mediante cortafuegos (firewalls)  ·  fortalecimiento del sistema y las redes privadas virtuales, entre otros." 
+         
           
         ]
       },
