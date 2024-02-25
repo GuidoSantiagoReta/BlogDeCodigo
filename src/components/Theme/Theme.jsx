@@ -9,9 +9,9 @@ function Theme() {
   return (
     <button
       className={`theme-button ${isDarkMode ? 'dark' : ''}`}
-      onClick={toggleTheme} // Corregido aquí
+      onClick={toggleTheme} 
     >
-      {isDarkMode ? <FiSun size={30} /> : <FiMoon size={30} />}
+      {isDarkMode ? <FiSun className='sun'/> : <FiMoon className='moon'/>}
     </button>
   );
 }

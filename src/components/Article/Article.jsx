@@ -31,10 +31,14 @@ const Article = ({ article }) => {
     'Automatización',
     'CI/CD',
     'pipelines',
+    '2018',
     '2019',
     'Certificaciones y Formación (2020 - 2021)',
     'Proyectos y Certificaciones Continuas (2022 - Actualidad):',
-    '2024'
+    '2024',
+    '2020',
+    '2021'
+
   ];
 
   const highlightText = (text) => {

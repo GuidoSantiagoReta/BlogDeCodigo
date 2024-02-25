@@ -37,7 +37,7 @@ export function TopButton() {
         <div className={`top-button-container ${showButton ? 'show' : ''} ${isDarkMode ? "top-button-dark" : ""}`}>
         <div className="top-button" onClick={scrollTop}>
             <div className="button-content">
-                <FaArrowUp className="icon" size={25}/>
+                <FaArrowUp className="icon" />
             </div>
         </div>
     </div>
