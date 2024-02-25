@@ -85,14 +85,14 @@ p {
     color: #1F2937;
 }
 
-
+/*DARK-MODE*/
 .nav-dark  {
     background: #1f2937c4; 
-    color: #fff; 
+    color: #E2E9EF; 
     backdrop-filter: blur(10px);
 }
 .nav-dark .brand{
-    color: #fff; 
+    color: #E2E9EF;
 }
 
 .dark-mode-header{
@@ -101,11 +101,11 @@ p {
 }
 
 .dark-mode-header h1{
-    color: #fff;
+    color: #E2E9EF; 
 }
 
 .dark-mode-header  .categories a.active{
-    color: #fff;
+    color: #E2E9EF; 
 }
 
 
@@ -126,7 +126,6 @@ p {
     }
     
      .categories a {
-     color: #9b9b9b9b;
      margin: 20px 20px;
      font-size: 15px;
      font-weight: 700;

@@ -15,7 +15,7 @@
   
  
   .articulo {
-    background: #F6F7F8;
+    background-color: #F6F7F8;
     padding:  20px  0;
     border:  1px solid #f0f0f0;
     margin-top: 25px;
@@ -45,12 +45,22 @@
     padding:  0  20px;
     text-align: justify;
   }
-  .dark-mode-section{
-    background: #1F2937; 
+  
+  /*DARK-MODE*/
+.dark-mode-section{
+  background-color: #1F2937; 
    
 }
 
-
+.dark-mode-section .articulo{
+  background-color:#1F2937;
+ }
+ .dark-mode-section .titulo-articulo{
+  color: #E2E9EF;
+ }
+ .dark-mode-section .texto-articulo{
+  color: #E2E9EF; 
+ }
 
 /*LINKS GITHUB Y PORTFOLIO*/
 
@@ -79,8 +89,11 @@
 
 .github {
   color: rgb(12, 12, 12);
-
+  
 }
+
+
+
 @media (max-width:  768px) {
     .contenedor {
       padding:  0  15px;

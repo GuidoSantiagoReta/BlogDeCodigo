@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import articlesData from './articlesData.json';
 import { ThemeContext } from "../../context/ThemeContextProvider";
 import { FaGithub, FaLaptopCode } from "react-icons/fa";
+import Theme from "../Theme/Theme";
 import './Article.css';
 
 const getImageUrl = (developer) => {

@@ -34,8 +34,10 @@
     color: #f5f5f5;
     font-size: 1.5em;
 }
+/*DARK-MODE*/
 
-/* Media query para dispositivos pequeños */
+
+/* Mediaquerie para dispositivos pequeños */
 @media (max-width:  768px) {
     .top-button-container {
         width:  30px;
