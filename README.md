@@ -12,3 +12,4 @@ Currently, two official plugins are available:
 
 - npm install react-switch
 - Carga diferida de imagenes con lazy
+- npm install --save react-lazy-load-image-component

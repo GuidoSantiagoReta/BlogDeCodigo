@@ -1,3 +1,8 @@
+
+.container-parent {
+    position: relative; /* Esto es necesario para que el footer se posicione correctamente */
+    min-height:  100vh; /* Asegura que el contenedor tenga al menos la altura de la ventana */
+  }
 footer {
     background-color: #f5f6f8a2;
     padding:   60px   0   30px   0;
@@ -5,6 +10,10 @@ footer {
     overflow: hidden;
     width:   100%;
     border-top:   1.5px solid #c7c6c69b;
+    position: absolute;
+   
+ 
+   
 }
 
 .container-footer {

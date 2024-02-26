@@ -4,8 +4,7 @@ import { ThemeContext } from "../../context/ThemeContextProvider";
 import { FaGithub, FaLaptopCode } from "react-icons/fa";
 import Theme from "../Theme/Theme";
 import './Article.css';
-import  LazyImage from '../LazyImage/LazyImage';
-import Footer from "../Footer/Footer";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const getImageUrl = (developer) => {
   return `/assets/${developer}`;
@@ -74,7 +73,12 @@ const Article = ({ article }) => {
             <div className="articulo">
               <p className="fecha-articulo">{article.fecha}</p>
               <h3 className="titulo-articulo">{article.titulo}</h3>
-              <LazyImage src={getImageUrl(article.imagen)} alt="developer" className="developer-image" />
+              <LazyLoadImage
+                src={getImageUrl(article.imagen)}
+                alt="developer"
+                className="developer-image"
+                effect="blur" 
+              />
               <div className="texto-articulo">
                 {article.texto.map((p, index) => (
                   <p key={index} dangerouslySetInnerHTML={{ __html: highlightText(p) }} />
@@ -97,7 +101,6 @@ const Article = ({ article }) => {
         </div>
       </div>
     </section>
-    <Footer/>
     </>
   );
 };

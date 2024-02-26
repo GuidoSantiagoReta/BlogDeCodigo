@@ -4,13 +4,13 @@
     align-items: center;
     flex-direction: column; 
     padding:  0  15px; 
+
   }
-  
  
   .contenedor {
     width:  100%; 
     max-width:  900px;
-    border-radius: 0%;
+    min-height:  100vh;
   }
   
  
@@ -98,6 +98,10 @@
 @media (max-width:  768px) {
     .contenedor {
       padding:  0  15px;
+      width:  100%; 
+      max-width:  900px;
+     
+
     }
   
     .articulo {

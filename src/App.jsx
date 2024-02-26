@@ -31,7 +31,7 @@ function App() {
       </Routes>
       <TopButton/>
     </Router>
-      
+    <Footer/>
     </>
   )
 }
