@@ -10,4 +10,5 @@ Currently, two official plugins are available:
 
 # Frontend
 
--npm install react-switch
+- npm install react-switch
+- Carga diferida de imagenes con lazy

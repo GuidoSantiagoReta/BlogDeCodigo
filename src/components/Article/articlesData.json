@@ -5,10 +5,10 @@
       "titulo": "Pasión por la tecnología y Primeros pasos por la programación",
       "imagen": "developer.png",
       "texto": [
-        "En el año 2018 Comencé a aprender tecnologías como HTML5, CSS3, Bootstrap, JavaScript, React, Node.js, Tailwind, Next.js, MySQL, SQL Server, C# y desde entonces no he dejado de aprender y  de realizar proyectos.",
+        "En el año 2018 comencé a aprender tecnologías como HTML5, CSS3, Bootstrap, JavaScript, React, Node.js, Tailwind, Next.js, MySQL, SQL Server, C# y desde entonces no he dejado de aprender y de realizar proyectos.",
         "Certificaciones y Formación (2020 - 2021): Realice la certificación de Comunidad IT de Programación web (Fullstack con React.js, Node.js y MYSQL).",
-        "Me inscribí a la tecnicatura en Análisis de sistemas, Aprendí temas que abarcan desde el ciclo de vida de desarrollo de software, arquitectura de redes, diseño de bases de datos, garantía de calidad de software, gestión de proyectos, estructuras de datos, programación funcional y estructurada, administración de servidores y bases de datos.",
-        "Proyectos y Certificaciones Continuas (2022 - Actualidad): Durante la tecnicatura, continue  aprendiendo sobre programación y desarrollo web, realizando distintos proyectos y certificaciones.",
+        "Me inscribí en la tecnicatura en Análisis de sistemas, aprendí temas que abarcan desde el ciclo de vida de desarrollo de software, arquitectura de redes, diseño de bases de datos, garantía de calidad de software, gestión de proyectos, estructuras de datos, programación funcional y estructurada, administración de servidores y bases de datos.",
+        "Proyectos y Certificaciones Continuas (2022 - Actualidad): Durante la tecnicatura, continué aprendiendo sobre programación y desarrollo web, realizando distintos proyectos y certificaciones.",
         "Actualmente, las tecnologías con las que me siento cómodo trabajando incluyen: Figma, HTML, CSS, JavaScript, Git, GitHub, GitLab, React Bootstrap, Tailwind, Next.js, Redux, Node.js, MYSQL, MongoDB, entre otras.",
         "A partir del 2024 me encuentro realizando la licenciatura en tecnologías digitales en la Universidad de la Ciudad de Buenos Aires, aprendiendo sobre testing, seguridad informática y Devops/DevSecOps."
       ]
@@ -20,7 +20,7 @@
         "imagen": "portfolio.png",
         "texto": [
           "Actualmente, las tecnologías con las que me siento cómodo trabajando incluyen: Figma, HTML, CSS, JavaScript, Git, GitHub, GitLab, React Bootstrap, Tailwind, Next.js, Redux, Node.js, MYSQL, MongoDB, entre otras.",
-          "A continuación comparto los enlaces de mi portfolio de proyectos y usuario de github."
+          "A continuación, comparto los enlaces a mi portfolio de proyectos y perfil de usuario en GitHub."
           
         ]
       },
@@ -30,7 +30,7 @@
         "titulo": "Bash scripting en KaliLinux",
         "imagen": "bashscripting.png",
         "texto": [
-          "Me encuentro Realizando scripts en tanto en bash como powershell",
+          "Actualmente, me encuentro realizando scripts en Bash, PowerShell y Python",
           "Practicando Scripting con variables de entorno, Scripts Dinámicos, condicionales, arreglos, estruturas repetitivas, manejo de archivos y funciones."
           
           
@@ -56,7 +56,7 @@
         "imagen": "google.png",
         "texto": [
           "Cuento con certificaciones de Google sobre seguridad informática donde abordé temas como:",
-          "Gestión de amenazas y vulnerabilidades · Instituto Nacional de Estándares y Tecnología de EE. UU. (NIST)  ·  Marco de gestión de riesgos (RMF) · Auditorías de seguridad · herramientas SIEM  ·  Operaciones y protocolos de red. Modelo de Protocolo de Control de Transmisión/Protocolo de Internet (TCP/IP) ·  Seguridad de la red . vulnerabilidades de una red  ·  protegerla mediante cortafuegos (firewalls)  ·  fortalecimiento del sistema y las redes privadas virtuales, entre otros." 
+          "Gestión de amenazas y vulnerabilidades, Instituto Nacional de Estándares y Tecnología de EE. UU. (NIST), Marco de gestión de riesgos (RMF), Auditorías de seguridad, herramientas SIEM, Operaciones y protocolos de red, Modelo de Protocolo de Control de Transmisión/Protocolo de Internet (TCP/IP), Seguridad de la red, vulnerabilidades de una red, protegerla mediante cortafuegos (firewalls), fortalecimiento del sistema y las redes privadas virtuales, entre otros." 
          
           
         ]
@@ -64,26 +64,20 @@
       {    
         "id": "testing",
         "fecha": "2024 - Actualidad",
-        "titulo": "Academia DevSecOps ",
+        "titulo": "Testing de aplicaciones",
         "imagen": "testing.png",
         "texto": [
-          "Estoy contento de compartir que he comenzado la Academia DevSecOps impartida por Softtek y UMSA Oficial. Durante este tiempo, hemos explorado los fundamentos de DevOps e Infraestructura, introducción a DevSecOps y a CloudOps, trabajando con Sistemas de Control de Versiones, aprendiendo sobre Automatización,",
-          "estrategias de ramificación, GitFlow, ciclo de vida de aplicaciones, herramientas de CI/CD y pipelines, entre otras cosas. Este aprendizaje ha sido increíblemente enriquecedor y estoy lleno de energía para continuar profundizando en estos temas. Quiero expresar mi agradecimiento a Softtek, por brindar esta valiosa capacitación.",
-          "Estoy ansioso por seguir creciendo y aplicando lo aprendido en mis futuros proyectos.", 
-          "¡Espero compartir con ustedes más avances y logros en el mundo de DevSecOps!"
+          "A través de mi formación, he adquirido un sólido conocimiento en testing de calidad de desarrollo de software, abordando temas como casos de pruebas, listado de requerimientos, requisitos funcionales y no funcionales, validación y verificación, técnicas TDD y BDD, herramientas de automatización como JMeter y Selenium, y pruebas de API REST con Postman y Thunder Client. Esto me ha permitido no solo comprender las mejores prácticas en desarrollo y testing, sino también aplicarlas en mi trabajo diario. Cada día, sigo perfeccionándome en el uso de estas herramientas y técnicas, con el objetivo de asegurar que mis programas cuenten con la menor cantidad de errores y eficiencia en los productos. Mi compromiso es con la excelencia en el software, y me esfuerzo por mantenerme al día con las últimas tendencias y mejores prácticas en el campo. Mi objetivo es contribuir a la creación de software de alta calidad, asegurando que cada producto que toque sea robusto, confiable y cumpla con los estándares de la industria."
           
         ]
       },
       {    
         "id": "database",
-        "fecha": "2024 - Actualidad",
+        "fecha": "2018 - Actualidad",
         "titulo": "Academia DevSecOps",
         "imagen": "db.png",
         "texto": [
-          "Estoy contento de compartir que he comenzado la Academia DevSecOps impartida por Softtek y UMSA Oficial. Durante este tiempo, hemos explorado los fundamentos de DevOps e Infraestructura, introducción a DevSecOps y a CloudOps, trabajando con Sistemas de Control de Versiones, aprendiendo sobre Automatización,",
-          "estrategias de ramificación, GitFlow, ciclo de vida de aplicaciones, herramientas de CI/CD y pipelines, entre otras cosas. Este aprendizaje ha sido increíblemente enriquecedor y estoy lleno de energía para continuar profundizando en estos temas. Quiero expresar mi agradecimiento a Softtek, por brindar esta valiosa capacitación.",
-          "Estoy ansioso por seguir creciendo y aplicando lo aprendido en mis futuros proyectos.", 
-          "¡Espero compartir con ustedes más avances y logros en el mundo de DevSecOps!"
+          "Cuento con conocimientos en diseño de bases de datos SQL y en gestores de bases de datos como SQL Server, PostgreSQL y MySQL Workbench. Además de las bases de datos SQL, tengo experiencia con bases de datos NoSQL, específicamente MongoDB. Me permite trabajar con datos en formato JSON, lo que facilita la integración con aplicaciones modernas y la gestión de grandes volúmenes de datos no estructurados."
           
         ]
       },
@@ -93,11 +87,7 @@
         "titulo": "Reparación de hardware e Instalación de sistemas operativos",
         "imagen": "hardware.jpg",
         "texto": [
-          "Estoy contento de compartir que he comenzado la Academia DevSecOps impartida por Softtek y UMSA Oficial. Durante este tiempo, hemos explorado los fundamentos de DevOps e Infraestructura, introducción a DevSecOps y a CloudOps, trabajando con Sistemas de Control de Versiones, aprendiendo sobre Automatización,",
-          "estrategias de ramificación, GitFlow, ciclo de vida de aplicaciones, herramientas de CI/CD y pipelines, entre otras cosas. Este aprendizaje ha sido increíblemente enriquecedor y estoy lleno de energía para continuar profundizando en estos temas. Quiero expresar mi agradecimiento a Softtek, por brindar esta valiosa capacitación.",
-          "Estoy ansioso por seguir creciendo y aplicando lo aprendido en mis futuros proyectos.", 
-          "¡Espero compartir con ustedes más avances y logros en el mundo de DevSecOps!"
-          
+          "Desde chico tengo interés en la reparación de hardware, upgrades, mantenimiento, formateo e instalación de sistemas operativos, tanto Linux como Windows. Cuando puedo, dedico mi tiempo al servicio técnico de PCs, corrigiendo errores y mejorando el rendimiento de las máquinas de mis clientes."
         ]
       }
   ]

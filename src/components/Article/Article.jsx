@@ -4,6 +4,8 @@ import { ThemeContext } from "../../context/ThemeContextProvider";
 import { FaGithub, FaLaptopCode } from "react-icons/fa";
 import Theme from "../Theme/Theme";
 import './Article.css';
+import  LazyImage from '../LazyImage/LazyImage';
+import Footer from "../Footer/Footer";
 
 const getImageUrl = (developer) => {
   return `/assets/${developer}`;
@@ -38,8 +40,21 @@ const Article = ({ article }) => {
     'Proyectos y Certificaciones Continuas (2022 - Actualidad):',
     '2024',
     '2020',
-    '2021'
-
+    '2021',
+    'TDD',
+    'BDD',
+    'JMeter',
+    'Selenium',
+    'API',
+    'REST',
+    'Postman',
+    'Thunder Client',
+    'SQLServer',
+    'PostgreeSQL',
+    'MySQL Workbench',
+    'SQL',
+    'MongoDB',
+    'JSON'
   ];
 
   const highlightText = (text) => {
@@ -51,6 +66,7 @@ const Article = ({ article }) => {
 
 
   return (
+    <>
     <section className={`ct-section ${isDarkMode ? "dark-mode-section" : ""}`}>
       <div className="blog">
         <div className="contenedor">
@@ -58,7 +74,7 @@ const Article = ({ article }) => {
             <div className="articulo">
               <p className="fecha-articulo">{article.fecha}</p>
               <h3 className="titulo-articulo">{article.titulo}</h3>
-              <img src={getImageUrl(article.imagen)} className="developer-image" alt="developer" />
+              <LazyImage src={getImageUrl(article.imagen)} alt="developer" className="developer-image" />
               <div className="texto-articulo">
                 {article.texto.map((p, index) => (
                   <p key={index} dangerouslySetInnerHTML={{ __html: highlightText(p) }} />
@@ -81,6 +97,8 @@ const Article = ({ article }) => {
         </div>
       </div>
     </section>
+    <Footer/>
+    </>
   );
 };
 
