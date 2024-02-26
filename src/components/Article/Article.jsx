@@ -18,14 +18,14 @@ const highlightKeywords = (text, keywords) => {
 const Article = ({ article }) => {
   const { isDarkMode } = useContext(ThemeContext);
   const keywords = [
-    'variables de entorno',  
-    'scripts dinámicos',  
+    'variables de entorno',
+    'scripts dinámicos',
     'condicionales',
-    'arreglos',  
-    'estruturas repetitivas',  
-    'manejo de archivos',  
-    'funciones',  
-    'DevOps',  
+    'arreglos',
+    'estruturas repetitivas',
+    'manejo de archivos',
+    'funciones',
+    'DevOps',
     'Infraestructura',
     'DevSecOps',
     'CloudOps',
@@ -60,47 +60,47 @@ const Article = ({ article }) => {
     return highlightKeywords(text, keywords);
   };
 
- // Solo para el articulo desarrollo-web"
+  // Solo para el articulo desarrollo-web"
   const isDesarrolloWebArticle = article.id === "desarrollo-web";
 
 
   return (
     <>
-    <section className={`ct-section ${isDarkMode ? "dark-mode-section" : ""}`}>
-      <div className="blog">
-        <div className="contenedor">
-          <div className="articulos-blog">
-            <div className="articulo">
-              <p className="fecha-articulo">{article.fecha}</p>
-              <h3 className="titulo-articulo">{article.titulo}</h3>
-              <LazyLoadImage
-                src={getImageUrl(article.imagen)}
-                alt="developer"
-                className="developer-image"
-                effect="blur" 
-              />
-              <div className="texto-articulo">
-                {article.texto.map((p, index) => (
-                  <p key={index} dangerouslySetInnerHTML={{ __html: highlightText(p) }} />
-                ))}
-              </div>
-              {isDesarrolloWebArticle && (
-                <div className="links">
-                  <h2>Portfolio</h2>
-                  <a href="https://reactportfolio-guidosantiagoreta.vercel.app/" target="_blank" rel="noopener noreferrer">
-                  <FaLaptopCode className="laptop" />
-                  </a>
-                  <h2>Github</h2>
-                  <a href="https://github.com/GuidoSantiagoReta" target="_blank" rel="noopener noreferrer">
-                  <FaGithub className="github" />
-                  </a>
+      <section className={`ct-section ${isDarkMode ? "dark-mode-section" : ""}`}>
+        <div className="blog">
+          <div className="contenedor">
+            <div className="articulos-blog">
+              <div className="articulo">
+                <p className="fecha-articulo">{article.fecha}</p>
+                <h3 className="titulo-articulo">{article.titulo}</h3>
+                <LazyLoadImage
+                  src={getImageUrl(article.imagen)}
+                  alt="developer"
+                  className="developer-image"
+                  effect="blur"
+                />
+                <div className="texto-articulo">
+                  {article.texto.map((p, index) => (
+                    <p key={index} dangerouslySetInnerHTML={{ __html: highlightText(p) }} />
+                  ))}
                 </div>
-              )}
+                {isDesarrolloWebArticle && (
+                  <div className="links">
+                    <h2>Portfolio</h2>
+                    <a href="https://reactportfolio-guidosantiagoreta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                      <FaLaptopCode className="laptop" />
+                    </a>
+                    <h2>Github</h2>
+                    <a href="https://github.com/GuidoSantiagoReta" target="_blank" rel="noopener noreferrer">
+                      <FaGithub className="github" />
+                    </a>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </>
   );
 };

@@ -5,10 +5,10 @@ import articlesData from '../Article/articlesData.json';
 
 
 const Scripting = () => {
-const webDevArticle = articlesData.find(article => article.id === 'scripting');
+  const webDevArticle = articlesData.find(article => article.id === 'scripting');
 
-    return (
-      <Article article={webDevArticle} />
+  return (
+    <Article article={webDevArticle} />
   )
 }
 

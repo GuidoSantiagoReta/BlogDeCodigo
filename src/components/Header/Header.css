@@ -40,7 +40,7 @@ nav {
 .brand {
 
     font-size: 40px;
-    font-family: 'Permanent Marker';
+    font-family: 'Permanent Marker', cursive;
     padding: 10px;
     color: #1F2937;
     cursor: pointer;
@@ -54,7 +54,7 @@ nav {
 .container-section .header-section {
     text-align: center;
     color: #1F2937;
-    font-family: 'Permanent Marker';
+    font-family: "Open Sans", sans-serif;
 }
 
 
@@ -63,7 +63,7 @@ p {
     margin: 20px;
     color: #757474f6;
     font-size: 25px;
-    font-family: 'Permanent Marker';
+    font-family: "Open Sans", sans-serif;
 }
 
 .categories {

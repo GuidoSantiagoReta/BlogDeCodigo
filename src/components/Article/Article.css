@@ -30,7 +30,7 @@
   font-size: 26px;
   text-align: center;
   margin: 20px;
-  font-family: 'Permanent Marker';
+  font-family: "Open Sans", sans-serif;
 
 }
 
@@ -79,7 +79,7 @@
 
 .links h2 {
   margin-bottom: 10px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Open Sans", sans-serif;
 }
 
 .links .laptop,
