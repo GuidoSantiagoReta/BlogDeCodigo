@@ -67,23 +67,23 @@ const Article = ({ article }) => {
   return (
     <>
    
-      <section className={`ct-section ${isDarkMode ? "dark-mode-section" : ""}`}>
+     <section className={`ct-section ${isDarkMode ? "dark-mode-section" : ""}`}>
         <div className="blog">
-          <div className="contenedor">
-            <div className="articulos-blog">
-              <div className="articulo">
-                <p className="fecha-articulo">{article.fecha}</p>
-                <h3 className="titulo-articulo">{article.titulo}</h3>
+          <div className="container">
+            <div className="article-blog">
+              <div className="article">
+                <p className="article-date">{article.fecha}</p>
+                <h3 className="article-title">{article.titulo}</h3>
                 <LazyLoadImage
                   src={getImageUrl(article.imagen)}
                   alt="developer"
                   className="developer-image"
                   effect="blur"
                 />
-                <div className="texto-articulo">
+                <div className="article-text">
                   {article.texto.map((p, index) => (
                     <p key={index} dangerouslySetInnerHTML={{ __html: highlightText(p) }} />
-                  ))}
+                   ))}
                 </div>
                 {isDesarrolloWebArticle && (
                   <div className="links">
