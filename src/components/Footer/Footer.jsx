@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
 import './Footer.css';
 import { SiGmail, SiGithub } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -16,13 +16,13 @@ const Footer = () => {
             <h2>Contacto</h2>
             <div className="social-icons">
               <a href="mailto:guidosantiagoreta@gmail.com" target="_blank" rel="noopener noreferrer">
-               <SiGmail />
+                <SiGmail />
               </a>
               <a href="https://www.linkedin.com/in/guido-reta" target="_blank" rel="noopener noreferrer">
-              <FaLinkedinIn />
+                <FaLinkedinIn />
               </a>
               <a href="https://www.github.com/in/GuidoSantiagoReta" target="_blank" rel="noopener noreferrer">
-              <SiGithub />
+                <SiGithub />
               </a>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    
+
     </>
   );
 };

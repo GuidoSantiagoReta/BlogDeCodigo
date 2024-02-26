@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { FiSun, FiMoon } from 'react-icons/fi';
 import { ThemeContext } from '../../context/ThemeContextProvider';
-import './Theme.css'; 
+import './Theme.css';
 
 function Theme() {
   const { isDarkMode, toggleTheme } = useContext(ThemeContext);
@@ -9,9 +9,9 @@ function Theme() {
   return (
     <button
       className={`theme-button ${isDarkMode ? 'dark' : ''}`}
-      onClick={toggleTheme} 
+      onClick={toggleTheme}
     >
-      {isDarkMode ? <FiSun className='sun'/> : <FiMoon className='moon'/>}
+      {isDarkMode ? <FiSun className='sun' /> : <FiMoon className='moon' />}
     </button>
   );
 }

@@ -12,13 +12,12 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  min-height:  100vh;
+  min-height: 100vh;
 }
 
 
 body {
   background: #ffffff;
-  min-height:  100vh;
+  min-height: 100vh;
   bottom: 0;
 }
-

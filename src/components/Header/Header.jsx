@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext} from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Theme from "../Theme/Theme";
 import { ThemeContext } from "../../context/ThemeContextProvider";
@@ -16,9 +16,9 @@ const Header = () => {
 
   useEffect(() => {
     const checkScroll = () => {
-      setIsScrolled(window.scrollY >  0); 
+      setIsScrolled(window.scrollY > 0);
     };
-  
+
     window.addEventListener("scroll", checkScroll);
     return () => {
       window.removeEventListener("scroll", checkScroll);
@@ -26,16 +26,16 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-    document.body.style.paddingTop = isScrolled ? "5px" : "0"; 
+    document.body.style.paddingTop = isScrolled ? "5px" : "0";
   }, [isScrolled]);
-  
+
   return (
     <>
-      <nav className={`${isScrolled ? "nav-scrolled" : "nav-default"} ${isDarkMode ? "nav-dark" : ""}`}> 
+      <nav className={`${isScrolled ? "nav-scrolled" : "nav-default"} ${isDarkMode ? "nav-dark" : ""}`}>
         <div className="container-nav">
           <div className="brand" onClick={() => navigate('/')}>BlogDeCódigo</div>
         </div>
-        <Theme/>
+        <Theme />
       </nav>
       <div className={`container-section ${isDarkMode ? "dark-mode-header" : ""}`}>
         <div className={`header-section ${isDarkMode ? "dark-mode-header" : ""}`}>

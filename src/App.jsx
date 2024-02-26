@@ -17,21 +17,21 @@ function App() {
 
   return (
     <>
-     <Router>
-      <Header />
-      <Routes>
-       <Route path='/' element={<Bio/>}  />
-       <Route path="/desarrollo" element={<DesarrolloWeb />} />
-       <Route path="/scripting" element={<Scripting />} />
-       <Route path="/devsecops" element={<DevSecOPs />} />
-       <Route path="/security" element={<CyberSecurity/>} />
-       <Route path="/testing" element={<Testing/>} />
-       <Route path="/database" element={<DataBase/>} />
-       <Route path="/hardware" element={<Hardware/>} />
-      </Routes>
-      <TopButton/>
-    </Router>
-    <Footer/>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Bio />} />
+          <Route path="/desarrollo" element={<DesarrolloWeb />} />
+          <Route path="/scripting" element={<Scripting />} />
+          <Route path="/devsecops" element={<DevSecOPs />} />
+          <Route path="/security" element={<CyberSecurity />} />
+          <Route path="/testing" element={<Testing />} />
+          <Route path="/database" element={<DataBase />} />
+          <Route path="/hardware" element={<Hardware />} />
+        </Routes>
+        <TopButton />
+      </Router>
+      <Footer />
     </>
   )
 }

@@ -66,6 +66,7 @@ const Article = ({ article }) => {
 
   return (
     <>
+   
       <section className={`ct-section ${isDarkMode ? "dark-mode-section" : ""}`}>
         <div className="blog">
           <div className="contenedor">
