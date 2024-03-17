@@ -79,7 +79,7 @@ const Article = ({ article }) => {
                   alt="developer"
                   className="developer-image"
                   effect="blur"
-                  aspectRatio={16 / 9} 
+                 
                 />
                 <div className="article-text">
                   {article.texto.map((p, index) => (

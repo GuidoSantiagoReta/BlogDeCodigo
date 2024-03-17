@@ -7,8 +7,6 @@ footer {
     border-top: 1.5px solid #c7c6c69b;
     position: absolute;
 
-
-
 }
 
 .container-footer {
@@ -32,7 +30,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .social-icons a {
@@ -52,6 +50,9 @@ footer {
     cursor: pointer;
 }
 
+.developer-info p{
+    color: #1F2937;
+}
 .developer-info p:hover {
     color: #939797;
     cursor: pointer;
@@ -73,7 +74,7 @@ footer {
 
 }
 
-.dark-mmode-footer .developer-info p {
+.dark-mode-footer .developer-info p {
     color: #939797;
 }
 

@@ -26,7 +26,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className={`developer-info{${isDarkMode ? "dark-mode-footer" : ""}`}>
+          <div className={`developer-info {${isDarkMode ? "dark-mode-footer" : ""}`}>
             <p>Desarrollado por Guido Santiago Reta &copy; 2024</p>
           </div>
         </div>
