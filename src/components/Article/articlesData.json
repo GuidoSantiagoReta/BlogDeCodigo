@@ -29,7 +29,7 @@
     "titulo": "Bash scripting en KaliLinux",
     "imagen": "bashscripting.png",
     "texto": [
-      "Actualmente, me encuentro realizando scripts en Bash, PowerShell y Python",
+      "Actualmente, me encuentro realizando scripts en Bash, PowerShell y Python.",
       "Practicando Scripting con variables de entorno, Scripts Dinámicos, condicionales, arreglos, estruturas repetitivas, manejo de archivos y funciones."
     ]
   },
