@@ -10,4 +10,4 @@
 - JSON
 - API context
 - Carga diferida de imagenes con lazy react-lazy-load-image-component
-- modificaciones
+
