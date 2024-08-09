@@ -1,5 +1,5 @@
 .theme-button {
-  background-color: #c9cacc;
+  background-color: transparent;
   color: #282c34;
   border: none;
   padding: 10px;
@@ -10,9 +10,14 @@
 }
 
 .theme-button.dark {
-  background-color: #282c34;
+  background-color: transparent;
   color: #f5f5f5;
 }
+.theme-button:focus {
+  outline: none; 
+ 
+}
+
 
 .sun {
   font-size: 2em;
