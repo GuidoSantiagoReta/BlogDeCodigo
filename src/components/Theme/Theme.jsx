@@ -15,3 +15,5 @@ function Theme() {
     </button>
   );
 }
+
+export default Theme;
