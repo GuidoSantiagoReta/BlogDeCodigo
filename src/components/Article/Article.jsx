@@ -5,6 +5,7 @@ import { FaGithub, FaLaptopCode } from "react-icons/fa";
 import Theme from "../Theme/Theme";
 import './Article.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import PropTypes from 'prop-types';
 
 const getImageUrl = (developer) => {
   return `/assets/${developer}`;
@@ -104,9 +105,19 @@ const Article = ({ article }) => {
         </div>
       </section>
     </>
+
+    
   );
 };
-
+Article.propTypes = {
+  article: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    fecha: PropTypes.string.isRequired,
+    titulo: PropTypes.string.isRequired,
+    imagen: PropTypes.string.isRequired,
+    texto: PropTypes.arrayOf(PropTypes.string).isRequired,
+  }).isRequired,
+};
 export default Article;
 
 
