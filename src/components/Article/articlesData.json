@@ -37,7 +37,7 @@
     "id": "devsecops",
     "fecha": "2024 - Actualidad",
     "titulo": "Desplegando una Instancia EC2 con Terraform en AWS desde VS Code",
-    "imagen": "EC2-terraform.jpg",
+    "imagen": "EC2-terraform.png",
     "texto": [
       "Creando Infraestructura como Código (IaC) utilizando Terraform para desplegar una instancia EC2 en AWS desde VS Code.",
       "Configuración inicial: Comenzé instalando Terraform y configurando mi entorno de AWS con aws configure. Esto permite autenticarme y conectarme a mi cuenta de AWS desde VS Code.",
